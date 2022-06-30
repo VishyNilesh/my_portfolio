@@ -1,5 +1,5 @@
 #bimg {
-height: 609px;
+height: 616.5px;
 }
 .top_decoration{
 background-image:url("head_image.png");
@@ -76,7 +76,7 @@ text-align: center;
 margin-top: 100px;
 font-size: 2.250em;
 letter-spacing:0.1em;
-color: ##0f1025;
+color: #0f1025;
 background: #eee;
 }
 .sub_sections_techskills hr{
@@ -143,4 +143,44 @@ background: #eee;
 }
 .sub_sections_experience span{
   padding-right: 300px;
+
 }
+.sub_sections_experience #ctm{
+  letter-spacing: 0em;
+}
+ .sub_sections_experience br+hr{
+  width: 30px;
+  height: 3px;
+  background: #ccc;
+  border: 0.5px;
+}
+.education{
+  margin-top: 100px;
+  background: #eee;
+  padding-bottom: 50px;
+}
+.getintotouch{
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+.getintotouch hr{
+  margin-bottom: 50px;
+}
+.getintotouch p{
+  width: 60%;
+  margin-bottom: auto;
+}
+form{
+  margin: auto;
+  margin-top: 50px;
+  width: 60%;
+  margin-bottom: 50px;
+}
+.getintotouch {
+  background-color: #0d2c5a;
+  color: white;
+  min-height: 80%;
+
+}
+html, body {height: 100%; }
