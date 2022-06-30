@@ -180,7 +180,20 @@ form{
 .getintotouch {
   background-color: #0d2c5a;
   color: white;
-  min-height: 80%;
-
+}
+.getintotouch .getintotouch_form .form-group:nth-of-type(4)
+{
+  padding-bottom: 80px;
+  padding-top: 10px;
+}
+.getintotouch .getintotouch_form .btn {
+    width:78px;
+    background: #5b9bbc;
+}
+.getintotouch_form ::placeholder{
+  font-style: italic;
+}
+.getintotouch .getintotouch_form .form-group {
+  margin-bottom: 30px;
 }
 html, body {height: 100%; }
