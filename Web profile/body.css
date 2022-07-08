@@ -1,5 +1,5 @@
 #bimg {
-height: 616.5px;
+height: 568px;
 }
 .top_decoration{
 background-image:url("head_image.png");
@@ -28,15 +28,15 @@ hr{
   font-weight: 300;
 }
 a{
-  font-size: 0.938em;
+  font-size: 0.928em;
   letter-spacing: 0.1em;
-  margin: auto;
-  width: auto;
+  margin-right: 10px;
 }
 #navigation:hover{
   color: white!important;
 }
 .sub_sections_aboutme{
+padding-top: 60px;
 text-align: center;
 margin-top: 100px;
 font-size: 2.250em;
@@ -162,7 +162,7 @@ background: #eee;
 .getintotouch{
   text-align: center;
   margin-top: 100px;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 .getintotouch hr{
   margin-bottom: 50px;
@@ -173,13 +173,14 @@ background: #eee;
 }
 form{
   margin: auto;
-  margin-top: 50px;
+  margin-top: 12px;
   width: 60%;
   margin-bottom: 50px;
 }
 .getintotouch {
   background-color: #0d2c5a;
   color: white;
+
 }
 .getintotouch .getintotouch_form .form-group:nth-of-type(4)
 {
@@ -196,4 +197,15 @@ form{
 .getintotouch .getintotouch_form .form-group {
   margin-bottom: 30px;
 }
-html, body {height: 100%; }
+.getintotouch .getintotouch_form .form-group textarea{
+  resize: none;
+}
+
+#navbar {
+  justify-content: center;
+  height: 60px;
+  background-color: #0d2c5a;
+
+}
+
+html{height: 100%; }
