@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   </head>
   <body>
-
       <div class="top_decoration fixed-top"></div>
       <div id="bimg">
         <img src="backstretch.jpg" class="w-100 h-100 img-fluid" alt="image_copyright_jordy_ruiter">
@@ -23,15 +22,15 @@
         <div class="carousel-caption" style="height: 300px; font-weight: 300;">
           <h4 id="designation">SOFTWARE ENGINEER</h4>
         </div>
-        <div class="navbar sticky-top " id="navbar" role="navigation">
-            <a href="#aboutme" class="text-info text-decoration-none" id="navigation">ABOUT ME</a>
-            <a href="#skills" class="text-info text-decoration-none " id="navigation">SKILLS</a>
-            <a href="#exp" class="text-info text-decoration-none " id="navigation">EXPERIENCE</a>
-            <a href="#edu" class="text-info text-decoration-none " id="navigation">EDUCATION</a>
-            <a href="#cv" class="text-info text-decoration-none  " id="navigation">PORTFOLIO</a>
-            <a href="#contact" class="text-info text-decoration-none " id="navigation">CONTACT</a>
+        <div class="navbar sticky-top" id="stickylinks" role="navigation">
+            <a href="#aboutme" class="navigation" id="a" onclick="aboutme()">ABOUT ME</a></li>
+            <a href="#skills" class="navigation" id="sk" onclick="skills()">SKILLS</a>
+            <a href="#exp" class="navigation" id="ex" onclick="exp()">EXPERIENCE</a>
+            <a href="#edu" class="navigation" id="ed" onclick="edu()" >EDUCATION</a>
+            <a href="#cv" class="navigation" id="p" onclick="por()">PORTFOLIO</a>
+            <a href="#contact" class="navigation " id="c" onclick="cont()">CONTACT</a>
           </div>
-        <div class="sub_sections_aboutme" id="aboutme">
+        <div class="sub_sections_aboutme " id="aboutme">
               <h2>ABOUT ME</h2>
               <hr>
               <div class="container">
@@ -65,7 +64,7 @@
                 </div>
               </div>
         </div>
-        <div class="sub_sections_techskills" id="skills">
+        <div class="sub_sections_techskills " id="skills">
               <h2>TECHINCAL SKILLS</h2>
               <hr>
               <p class="text-center col-lg-12">I've worked with a wide variety of programming languages. For web applications I use PHP and Javascript. Whenever I need the most performance possible I obviously go with C++ and finally when I am building prototypes or working on my hobby projects I fall back on Python</p>
@@ -116,7 +115,7 @@
               </div>
             </div>
         </div>
-        <div class="sub_sections_experience" id="exp">
+        <div class="sub_sections_experience " id="exp">
           <h2>WORK EXPERIENCE</h2>
           <hr>
           <h3>ASSISTANT SYSTEM ENGINEER</h3>
@@ -155,7 +154,7 @@
       <p class="container">I've held three different positions in this company. From part-time employee to full time intern and now finally as a full time employee in the data division. I am responsible for the extraction of high quality data from the web. I develop software that extracts information from the unstructured deep web and that converts it into a structured format for further data analysis.</p>
       <p id="ctm"> <strong>Company</strong> :<span> TCS</span>  <strong>Period</strong>: January 2019-Present</p>
         </div>
-        <div class="sub_sections_experience education" id="edu">
+        <div class="sub_sections_experience education " id="edu">
           <h2>EDUCATION</h2>
           <hr>
           <h3>NHTV BREDA UNIVERSITY OF APPLIED SCIENCES</h3>
@@ -163,7 +162,7 @@
           <br>
           <p class="container">I've held three different positions in this company. From part-time employee to full time intern and now finally as a full time employee in the data division. I am responsible for the extraction of high quality data from the web. I develop software that extracts information from the unstructured deep web and that converts it into a structured format for further data analysis.</p>
         </div>
-        <div class="favprojects sub_sections_experience" id="cv">
+        <div class="favprojects sub_sections_experience " id="cv">
           <h2>SOME OF MY FAVOURITE PROJECTS</h2>
           <hr>
 
@@ -180,7 +179,7 @@
             </div>
         </div>
       </div>
-      <div class="getintotouch" id="contact">
+      <div class="getintotouch " id="contact">
         <h2>LET'S GET IN TOUCH</h2>
         <hr>
         <p class="container">Need anything built, want to work together or simply want to have a chat?</p>
@@ -204,5 +203,6 @@
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script type="text/javascript" src="bootstrap.js"></script>
       <script type="text/javascript" src="portfolio.js"></script>
+
   </body>
 </html>

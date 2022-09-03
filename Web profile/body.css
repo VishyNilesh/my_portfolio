@@ -1,5 +1,5 @@
 #bimg {
-height: 568px;
+height: 580px;
 }
 .top_decoration{
 background-image:url("head_image.png");
@@ -28,12 +28,15 @@ hr{
   font-weight: 300;
 }
 a{
-  font-size: 0.928em;
+  padding-top: 2px;
+  font-size: 0.904em;
   letter-spacing: 0.1em;
   margin-right: 10px;
 }
-#navigation:hover{
-  color: white!important;
+
+.navigation:hover{
+  color: white;
+  text-decoration: none;
 }
 .sub_sections_aboutme{
 padding-top: 60px;
@@ -200,12 +203,9 @@ form{
 .getintotouch .getintotouch_form .form-group textarea{
   resize: none;
 }
-
-#navbar {
+#stickylinks {
   justify-content: center;
-  height: 60px;
+  height: 50px;
   background-color: #0d2c5a;
-
 }
-
 html{height: 100%; }
