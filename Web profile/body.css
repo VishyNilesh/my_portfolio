@@ -1,5 +1,5 @@
 #bimg {
-height: 580px;
+height: 620px;
 }
 .top_decoration{
 background-image:url("head_image.png");
@@ -41,7 +41,7 @@ a{
 .sub_sections_aboutme{
 padding-top: 60px;
 text-align: center;
-margin-top: 100px;
+margin-top: 20px;
 font-size: 2.250em;
 letter-spacing:0.1em;
 color: #404040;

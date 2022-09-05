@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-      <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   </head>
-  <body>
+  <body data-spy = 'scroll' data-target = '.navbar' data-offset='50'>
       <div class="top_decoration fixed-top"></div>
       <div id="bimg">
         <img src="backstretch.jpg" class="w-100 h-100 img-fluid" alt="image_copyright_jordy_ruiter">
@@ -22,14 +22,16 @@
         <div class="carousel-caption" style="height: 300px; font-weight: 300;">
           <h4 id="designation">SOFTWARE ENGINEER</h4>
         </div>
-        <div class="navbar sticky-top" id="stickylinks" role="navigation">
-            <a href="#aboutme" class="navigation" id="a" onclick="aboutme()">ABOUT ME</a></li>
-            <a href="#skills" class="navigation" id="sk" onclick="skills()">SKILLS</a>
-            <a href="#exp" class="navigation" id="ex" onclick="exp()">EXPERIENCE</a>
-            <a href="#edu" class="navigation" id="ed" onclick="edu()" >EDUCATION</a>
-            <a href="#cv" class="navigation" id="p" onclick="por()">PORTFOLIO</a>
-            <a href="#contact" class="navigation " id="c" onclick="cont()">CONTACT</a>
-          </div>
+        <nav class ="navbar navbar-expand-sm navbar-dark sticky-top" id="stickylinks" role="navigation">
+          <ul class="navbar-nav">
+              <li class="nav-item"> <a href="#aboutme" class="navigation nav-link active" id="a" onclick="aboutme()">ABOUT ME</a></li>
+              <li class="nav-item"> <a href="#skills" class="navigation nav-link active" id="sk" onclick="skills()">SKILLS</a></a></li>
+              <li class="nav-item"> <a href="#exp" class="navigation nav-link active" id="ex" onclick="exp()">EXPERIENCE</a></li>
+              <li class="nav-item"> <a href="#edu" class="navigation nav-link active" id="ed" onclick="edu()" >EDUCATION</a></li>
+              <li class="nav-item"> <a href="#cv" class="navigation nav-link active" id="p" onclick="por()">PORTFOLIO</a></li>
+              <li class="nav-item"> <a href="#contact" class="navigation nav-link active" id="c" onclick="cont()">CONTACT</a></li>
+          </ul>
+        </nav>
         <div class="sub_sections_aboutme " id="aboutme">
               <h2>ABOUT ME</h2>
               <hr>
